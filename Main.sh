@@ -6,7 +6,7 @@ echo -ne "\rLoading pacakages... [Curl] [2/3]"
 apt-get install curl -y > data
 
 echo -ne "\rLoading pacakages... [Nmap] [3/3]"
-apt-get install curl -y > data
+apt-get install nmap -y > data
 
 clear
 tput setaf 3
