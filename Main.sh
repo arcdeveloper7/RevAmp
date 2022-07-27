@@ -96,7 +96,7 @@ echo "==============[Page_script]================"
 curl --get $target
 echo -ne "\n";
 echo "===========[Nmap_ipgeolocation]============"
-nmap --script ip-geolocation-geoplugin $target || echo "Linux_only"
+nmap --script ip-geolocation-geoplugin $target || echo "Some feature is missing on your device"
 echo -ne "\n";
 echo "============>Complete"
 
