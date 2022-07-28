@@ -95,6 +95,8 @@ echo "===========[Nmap_ipgeolocation]============"
 nmap --script ip-geolocation-geoplugin -Pn $target || echo "Some feature is missing on your device"
 echo -ne "\n";
 echo "============>Complete"
+tput setaf 1
 mpg123 -q 1 V1.wav
+tput setaf 7
 
 
