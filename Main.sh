@@ -1,12 +1,14 @@
 clear
-echo -ne "\rLoading pacakages... [Ncurses-utils] [1/3]"
+echo -ne "\rLoading packages... [Ncurses-utils] [1/4]"
 apt-get install ncurses-utils -y > data
 
-echo -ne "\rLoading pacakages... [Curl] [2/3]"
+echo -ne "\rLoading packages... [Curl] [2/4]"
 apt-get install curl -y > data
 
-echo -ne "\rLoading pacakages... [Nmap] [3/3]"
+echo -ne "\rLoading packages... [Nmap] [3/4]"
 apt-get install nmap -y > data
+
+echo -ne "\rLoading packages... [mpg122] [4/4]" 
 
 clear
 tput setaf 3
