@@ -54,9 +54,7 @@ echo -ne "\r [Testing target connection ║████████║";
 ping -c 10 $target > data
         
 echo -ne "\r [Testing target connection ║████████║✓\n";
-echo "==========================================="
-echo -ne "\rExploiting [*]"
-ping -c 1 $target > null
+echo "========================================"
 echo -ne "\rExploiting [*]"
 ping -c 1 $target > null
 echo -ne "\rExploiting [ ]"
@@ -68,10 +66,6 @@ ping -c 1 $target > null
 echo -ne "\rExploiting [*]"
 ping -c 1 $target > null
 echo -ne "\rExploiting [ ]"
-ping -c 1 $target > null
-echo -ne "\rExploiting [*]"
-ping -c 1 $target > null
-echo -ne "\rExploiting [*]"
 ping -c 1 $target > null
 echo -ne "\rExploiting [*]"
 ping -c 1 $target > null
